@@ -5,13 +5,15 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { SupportUsComponent } from './support-us/support-us.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    SupportUsComponent
   ],
   imports: [
     CommonModule,
