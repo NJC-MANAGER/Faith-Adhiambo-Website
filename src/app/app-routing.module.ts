@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './dashboard/home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   {
@@ -28,7 +30,9 @@ const routes: Routes = [
     path: "services",
     loadChildren: () =>
       import("./services/services.module").then((m) => m.ServicesModule)
-  }
+  },
+  {path: "footer", component: FooterComponent},
+  {path: "navbar", component: NavbarComponent}
 ];
 
 @NgModule({

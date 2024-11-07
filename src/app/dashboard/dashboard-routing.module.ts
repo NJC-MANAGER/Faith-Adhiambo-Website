@@ -10,6 +10,7 @@ const routes: Routes = [
   {path: "about", component: AboutComponent},
   {path: "contact", component: ContactComponent},
   {path: "support-us", component: SupportUsComponent}
+
 ];
 
 @NgModule({
