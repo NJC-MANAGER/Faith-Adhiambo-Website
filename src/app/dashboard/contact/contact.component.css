@@ -1,0 +1,82 @@
+:root {
+    --maroon: #800000;
+    --primary-blue: #003366;
+  }
+  
+  .container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: var(--maroon);
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    color: var(--primary-blue);
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    color: var(--primary-blue);
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.2rem rgba(0, 51, 102, 0.25);
+  }
+  
+  button {
+    font-size: 1.2rem;
+    background-color: var(--primary-blue);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: #002244;
+  }
+  
+  .invalid-feedback {
+    font-size: 0.9rem;
+    color: red;
+  }
+  
+  .text-maroon {
+    color: var(--maroon);
+  }
+  
+  .text-primary-blue {
+    color: var(--primary-blue);
+  }
+  
+  .btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .row {
+    margin-top: 50px;
+  }
+  

@@ -6,6 +6,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SupportUsComponent } from './support-us/support-us.component';
+import { LayoutComponent } from './layout/layout.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -13,11 +16,15 @@ import { SupportUsComponent } from './support-us/support-us.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    SupportUsComponent
+    SupportUsComponent,
+    LayoutComponent,
+   
+  
   ],
   imports: [
     CommonModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class DashboardModule { }
