@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SupportUsComponent } from './support-us/support-us.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 
@@ -15,6 +16,8 @@ import { SupportUsComponent } from './support-us/support-us.component';
     AboutComponent,
     ContactComponent,
     SupportUsComponent,
+    LayoutComponent,
+   
   
   ],
   imports: [
