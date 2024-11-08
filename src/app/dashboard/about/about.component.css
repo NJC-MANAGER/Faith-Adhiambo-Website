@@ -1,0 +1,28 @@
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image fills the space without distorting */
+    border-radius: 50%; /* Optional: to make the image round */
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  ul {
+    font-family: 'Arial', sans-serif;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  

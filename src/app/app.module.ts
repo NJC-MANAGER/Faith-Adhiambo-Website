@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
